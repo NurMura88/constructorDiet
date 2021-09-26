@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+}
+.headerSection .headerLogo span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.headerSection .headerLogo img {
+  width: 60px;
+  position: relative;
+  top: 20px;
+}
+
+.headerSection .headerLogo a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger {
+  position: relative;
+  top: 34px;
+}
+
+.burger ul {
+  display: flex;
+}
+.burger ul li {
+  list-style: none;
+  font-size: 24px;
+  font-family: 'Josefin Sans';
+}
+
+.burger ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger ul li:not(:last-child)::after {
+  content: ' | ';
+  color: black;
+  padding-right: 8px;
+  color: rgb(211, 218, 218);
+}

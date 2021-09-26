@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+
+.constSection .constDiv {
+  position: absolute;
+  top: 150px;
+  width: 1700px;
+  height: 70px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  box-shadow: 0px 0px 10px 10px rgb(34 60 80 / 7%);
+  font-family: 'Josefin Sans', sans-serif;
+  background: antiquewhite;
+}
+
+.constSection .constInput {
+  position: absolute;
+  top: 270px;
+  left: 100px;
+  height: 670px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(34 60 80 / 7%);
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 15px;
+  background: antiquewhite;
+}
+
+.labelChoose {
+  position: absolute;
+    top: 115px;
+    left: 15px;
+}
+
+.selectCurrent {
+  position: absolute;
+    top: 114px;
+    right: 70px;
+}
+
+.planFood {
+  position: absolute;
+    top: 181px;
+    left: 15px;
+}
+
+.constSection .constUl {
+  width: 1300px;
+  height: 700px;
+  position: absolute;
+  top: 270px;
+  right: 120px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(78 73 67 / 7%);
+  background: antiquewhite;
+}
+
+.constSection .constUl ul {
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+}

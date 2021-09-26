@@ -1,0 +1,28 @@
+<section class="burgerSection">
+  <div class="headerSection">
+    <div class="headerLogo">
+      <img
+        src="https://img.icons8.com/ios-filled/100/000000/healthy-eating.png"
+      />
+      <span>m3nur</span>
+    </div>
+    <nav class="burger">
+      <ul>
+        <li><a href="/">Home</a></li>
+        {{#if email}}
+          <li><a href="/constructor">Constructor</a></li>
+          <li><a href="/profile">{{email}}</a></li>
+          <li><a href="/login/logout">Logout</a></li>
+        {{/if}}
+        {{#unless email}}
+          <li><a href="/login">Sign In</a></li>
+          <li><a href="/registration">Sign Up</a></li>
+        {{/unless}}
+        {{#if admin}}
+          <li><a href="/admin">Admin Panel</a></li>
+        {{/if}}
+
+      </ul>
+    </nav>
+  </div>
+</section>

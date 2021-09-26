@@ -1,0 +1,34 @@
+<section class="loginForm">
+  <div class="formLoginDiv">
+    <div class="formTitle">
+      <p>Sign In</p>
+      <span class="chyzyk">---</span>
+      <ul>
+        <li><img src="/icons/icons8-instagram-50.png" alt="instagram" /></li>
+        <li><img src="/icons/icons8-facebook-50.png" alt="facebook" /></li>
+        <li><img src="/icons/icons8-google-50.png" alt="google" /></li>
+      </ul>
+      <span class="orEmail">or use your email</span>
+    </div>
+    <form action="/login" id="logForm" method="POST" class="marginTop">
+      <label class="marginTop" for="">Email</label><br />
+      <input
+        class="marginTop marginBottom"
+        name="email"
+        type="text"
+        placeholder="Эл.адрес"
+        required
+      /><br />
+      <label for="">Password</label><br />
+      <input
+        class="marginTop"
+        name="password"
+        type="password"
+        placeholder="Пароль"
+        required
+      /><br />
+      <button class="marginTop" type="submit">Login</button><br />
+      <button class="marginTop" type="reset">Reset</button>
+    </form>
+  </div>
+</section>

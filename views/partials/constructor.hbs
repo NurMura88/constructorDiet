@@ -1,0 +1,28 @@
+
+<section class="constSection">
+  <div class="constDiv">
+    <h4 align="center">Pick your Food</h4>
+  </div>
+  <div class="constInput">
+    <form id="cCalForm">
+      <label for="">Enter the number of calories</label> <br>
+      <input placeholder="minCcal" type="text" value="" name="minCCal">
+      <button name="btn">Send</button>
+      <label class="labelChoose" for="">Choose the number of meals</label>
+      <select class="selectCurrent"name="current">
+        {{!-- <option value="chooseMealTime">choose mealTime</option> --}}
+        <option selected value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <select  class="planFood" name="planFood">
+        <option selected value="25/25/50">25Б/25Ж/50У</option>
+      </select>
+    </form>
+  </div>
+  <div class="constUl">
+    <ul id='ulList'>
+    </ul>
+  </div>
+</section>
+

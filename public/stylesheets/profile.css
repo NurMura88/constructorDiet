@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+
+.profileSection .profileDiv .profileChelInfo {
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  border-radius: 20px;
+  top: 150px;
+  left: 120px;
+  box-shadow: 0px 0px 10px 10px rgb(245 0 0 / 7%);
+  display: flex;
+  justify-content: center;
+}
+
+.profileSection .profileDiv .statMaybe {
+  position: absolute;
+  width: 1250px;
+  height: 200px;
+  top: 150px;
+  right: 120px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(245 0 0 / 7%);
+}
+
+.profileSection .profileDiv .UprazhneniyaDlyaChela {
+  position: absolute;
+  width: 1250px;
+  height: 570px;
+  border-radius: 20px;
+  top: 380px;
+  right: 120px;
+  box-shadow: 0px 0px 10px 10px rgb(245 0 0 / 7%);
+}
+
+.profileSection .profileDiv .profileChelInfo .avatarka {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  top: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(245 0 0 / 7%);
+  background: url(https://images.unsplash.com/photo-1620880762296-f9787c134352?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) center;
+}
+
+.profileSection .profileDiv .profileChelInfo .nameChela {
+  position: absolute;
+  top: 235px;
+  font-size: 20px;
+  padding: 10px 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px rgb(25 255 191 / 6%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.profileSection .profileDiv .profileChelInfo .emailChela {
+  position: absolute;
+  top: 310px;
+  font-size: 20px;
+  padding: 10px 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px rgb(25 255 191 / 6%);
+  font-family: 'Josefin Sans', sans-serif;
+}

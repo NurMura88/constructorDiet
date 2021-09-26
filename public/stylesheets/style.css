@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.mainSection {
+  position: relative;
+  width: 100%;
+}
+
+.mainSection .main .motivationLetter {
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+.mainSection .main .motivationLetter h1 {
+  position: relative;
+  top: 150px;
+  z-index: 2;
+  font-size: 42px;
+  margin: 0;
+}
+
+.mainSection .main .imgMotivationImage {
+  height: 0;
+}
+.mainSection .main .imgMotivationImage {
+  text-align: center;
+}
+
+.mainSection .main .imgMotivationImage img {
+  box-shadow: 0px 5px 10px 30px rgb(34 60 80 / 40%);
+}
+
+.mainSection .main .imgMotivationImage .qImg {
+  position: relative;
+  top: -150px;
+  left: 100px;
+}
+
+.mainSection .main .imgMotivationImage .wImg {
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+
+.mainSection .main .imgMotivationImage .eImg {
+  position: relative;
+  top: 120px;
+  right: 210px;
+  z-index: 1;
+}
+.mainSection .main .imgMotivationImage .tImg {
+  position: relative;
+  top: -550px;
+  left: 250px;
+}
+
+.mainSection .main .imgMotivationImage .rImg {
+  position: relative;
+  top: -26px;
+  right: 45px;
+}

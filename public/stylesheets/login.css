@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.loginForm {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  top: 222px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm .formLoginDiv::after {
+  z-index: -1;
+  left: 370px;
+  top: 250px;
+  position: absolute;
+  height: 400px;
+  content: '';
+  width: 400px;
+  box-shadow: 0px 5px 10px 30px rgb(34 60 80 / 7%);
+  background: url('https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=642&q=80') no-repeat;
+  border-radius: 50%;
+  opacity: 0.8;
+  z-index: -1;
+}
+.loginForm .formLoginDiv::before {
+  z-index: -1;
+  right: 522;
+  top: -170px;
+  content: '';
+  z-index: -1;
+  opacity: 0.8;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 5px 10px 30px rgb(34 60 80 / 7%);
+  background: url('https://images.unsplash.com/photo-1563746098251-d35aef196e83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80') no-repeat center;
+}
+.loginForm .formLoginDiv {
+  width: 430px;
+  height: 550px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 30px rgb(34 60 80 / 20%);
+}
+
+.loginForm .formLoginDiv .formTitle ul {
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm .formLoginDiv .formTitle ul li {
+  list-style: none;
+}
+
+.loginForm .formLoginDiv .formTitle p {
+  font-size: 27px;
+}
+
+.loginForm .formLoginDiv .formTitle .chyzyk {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.loginForm .formLoginDiv .formTitle ul li:first-child {
+  margin-left: -34px;
+} 
+
+.loginForm .formLoginDiv .formTitle ul li:nth-child(2) {
+  padding-left: 12px;
+}
+
+.loginForm .formLoginDiv .formTitle ul li:last-child {
+  padding-left: 10px;
+}
+
+.loginForm .formLoginDiv .marginTop {
+  margin-top: 20px;
+}
+
+.loginForm .formLoginDiv .marginBottom {
+  margin-bottom: 20px;
+}
+
+.loginForm .formLoginDiv .marginTop input {
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.loginForm .formLoginDiv .marginTop button {
+  width: 42.4%;
+  width: 42.4%;
+  font-size: 16px;
+}
+

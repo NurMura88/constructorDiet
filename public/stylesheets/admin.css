@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Work+Sans:wght@300;400&display=swap");
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.adminSection .adminDiv .adminTitle {
+  width: 420;
+  height: 150px;
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(34 60 80 / 10%);
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminSection .adminDiv .adminTitle .admin {
+  font-size: 35px;
+  font-weight: 550;
+  width: 360px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 5px rgb(34 60 80 / 5%);
+  position: relative;
+  align-items: center;
+}
+
+.adminSection .adminDiv .adminTitle .addAdminDish {
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 4px 5px rgb(34 60 80 / 5%);
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.adminSection .adminDiv .adminTitle .adminText {
+  font-size: 20px;
+  position: relative;
+  top: 180px;
+  left: 150px;
+  width: 210px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 4px 5px rgb(34 60 80 / 5%);
+  border-radius: 20px;
+}
+
+.adminSection .adminDiv .mealTime {
+  width: 1210px;
+  height: 150px;
+  position: absolute;
+  top: 170px;
+  right: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(34 60 80 / 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminSection .adminDiv .mealTitle {
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  width: 1700px;
+  height: 540px;
+  padding: 10px 0 0 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(34 60 80 / 10%);
+}
+
+.adminSection .adminDiv .mealTime .mealTimeName {
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  margin: 0 40px;
+  box-shadow: 0px 0px 4px 5px rgb(34 60 80 / 5%);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+
+.adminSection .adminDiv .mealTime .red {
+  box-shadow: 0px 0px 4px 5px rgb(251 0 0 / 20%);
+}
+
+.adminSection .adminDiv .mealTitle .forDisplayDontTouchBeach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 210px;
+  top: 70px;
+}
+
+.adminSection .adminDiv .mealTitle .mealTimeName {
+  border: none;
+  padding: 25px 30px;
+  margin: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: white;
+  color: black;
+  box-shadow: 0px 0px 4px 5px rgb(34 60 80 / 10%);
+  width: 300px;
+  top: 110px;
+  left: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+.adminSection
+  .adminDiv
+  .mealTitle
+  .forDisplayDontTouchBeach
+  .cuteInputsByNurbek {
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+  margin: 50px 40px;
+  box-shadow: 0px 0px 4px 5px rgb(0 0 0 / 10%);
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+.adminSection .adminDiv .btnByNurbek {
+  position: absolute;
+  bottom: 30px;
+  right: 70px;
+  padding: 25px 30px;
+  margin: 20px 40px;
+  border: none;
+  background: white;
+  box-shadow: 0px 0px 4px 5px rgb(69 197 39 / 20%);
+  border-radius: 10px;
+  width: 300px;
+  color: #777777;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+}
+
+select {
+  outline: none;
+}

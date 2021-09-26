@@ -1,0 +1,77 @@
+<section class="adminSection">
+  <div class="adminDiv">
+    <div class="adminTitle">
+      <p class="admin">Admin Panel</p>
+    </div>
+    <form id="formAdminAdd" method="POST" action="/admin">
+      <div class="mealTime">
+        <p class="mealTimeName">Add Food</p>
+        <p class="mealTimeName red">All fields are required!!!</p>
+      </div>
+      <div class="mealTitle">
+        <select name="mealTime" class="mealTimeName">
+          <!--Supplement an id here instead of using 'name'-->
+          <option class="mealTimeName" value="Завтрак" selected>
+            Breakfast
+          </option>
+          <option class="mealTimeName" value="Обед">Lunch</option>
+          <option class="mealTimeName" value="Ужин">Dinner</option>
+          <option class="mealTimeName" value="Полдник">Snack</option>
+        </select>
+        <div class="firstMealInput forDisplayDontTouchBeach">
+          <input
+            class="cuteInputsByNurbek"
+            type="text"
+            placeholder="Name Of The Food"
+            name="title"
+            required
+            pattern="^[А-Яа-яЁё\\s]+$"
+          />
+          <input
+            class="cuteInputsByNurbek"
+            type="number"
+            placeholder="Weight In GR"
+            name="weight"
+            required
+            pattern="\\d"
+          />
+          <input
+            class="cuteInputsByNurbek"
+            type="number"
+            placeholder="Calorie Content"
+            name="kall"
+            required
+            pattern="\\d"
+          />
+        </div>
+        <div class="secondMealInput forDisplayDontTouchBeach">
+          <input
+            class="cuteInputsByNurbek"
+            type="number"
+            placeholder="Protein "
+            name="proteins"
+            required
+            pattern="\\d"
+          />
+          <input
+            class="cuteInputsByNurbek"
+            type="number"
+            placeholder="Fats"
+            name="fats"
+            required
+            pattern="\\d"
+          />
+          <input
+            class="cuteInputsByNurbek"
+            type="number"
+            placeholder="Carbohydrates"
+            name="carbohydrates"
+            required
+            pattern="\\d"
+          />
+        </div>
+        <button class="btnByNurbek">Submit</button>
+      </div>
+    </form>
+  </div>
+</section>
